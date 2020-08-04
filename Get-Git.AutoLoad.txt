@@ -1,0 +1,13 @@
+#>
+    This file is for Get-Git (and any other program that chooses to use it)
+    The purpose is to serve as a reference point for the command to use to load the 
+    Module/Script so that the main purpose of the function can be utilized.
+
+    Any command that your Repo requires should be listed below starting with "Command: "
+
+    ##Please use $PathToModules when trying to reference the root of where the modules are stored.
+    Example:  If you want SuperLine to be loaded you would put the following : Command: . $PathToModules\pulic\SuperLine.ps1
+
+<#
+
+Command: . $PathtoModule\Test-InternetSpeed.ps1
